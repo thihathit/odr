@@ -19,6 +19,25 @@ Writing custom reactive engines outside of React components.
 
 ---
 
+# Background
+
+<div />
+Reactivity is a fundamental idea in contemporary UI frameworks and technologies.
+
+This idea is used by `Vue`, `React`, `Solid`, and other technologies with `unique implementations`.
+
+### Example:
+
+The following component color is `re-painted` upon the changes of it's `state`.
+
+And the state is a `reactive entity` where the re-painting process could depend on.
+In other words, reactive entity's `subscribers`(a.k.a: effects/watchers) will get `update` notifications
+and the re-painting process could perform upon it.
+
+<State  />
+
+---
+
 # What we usually want?
 
 Let's say we have the following state.

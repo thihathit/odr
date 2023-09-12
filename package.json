@@ -12,5 +12,8 @@
     "@slidev/theme-apple-basic": "^0.20.0",
     "@slidev/theme-default": "^0.21.2",
     "@slidev/theme-seriph": "^0.21.3"
+  },
+  "devDependencies": {
+    "sass": "^1.66.1"
   }
 }
