@@ -332,8 +332,12 @@ const onClick = () => {
 
 - Web: [odr.netlify.app](https://odr.netlify.app/)
 - Github repo: [thihathit/odr](https://github.com/thihathit/odr).
-- All examples: [./libs](https://github.com/thihathit/odr/tree/main/libs/).
-- Proxy with nested object: [./reactive.ts](https://github.com/thihathit/odr/tree/main/libs/reactive.ts).
+- Examples: [./libs](https://github.com/thihathit/odr/tree/main/libs/).
+  - Atom: [./atom.js](https://github.com/thihathit/odr/tree/main/libs/atom.ts).
+  - Proxy: [./reactive.js](https://github.com/thihathit/odr/tree/main/libs/reactive.js).
+  - Other proxy implementations:
+    - Nested: [./nested-reactive.ts](https://github.com/thihathit/odr/tree/main/libs/nested-reactive.ts).
+    - Atomic: [./atomic-reactive.ts](https://github.com/thihathit/odr/tree/main/libs/atomic-reactive.ts).
 
 <div class="absolute bottom-10">
     Thank you.
