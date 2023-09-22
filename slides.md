@@ -342,3 +342,7 @@ const onClick = () => {
 <div class="absolute bottom-10">
     Thank you.
 </div>
+
+<div class="absolute bottom-10 right-15">
+    <a href="https://odr.netlify.app/">odr.netlify.app</a>
+</div>
