@@ -1,17 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import { createAtom } from '../libs/atom'
+import { reactive } from 'vue'
 
-const [currentValue, { watch, update }] = createAtom('Hello')
-
-const message = ref(currentValue)
-
-watch(newMessage => {
-  message.value = newMessage
+const state = reactive({
+  count: 0,
+  status: false
 })
 
 const onClick = () => {
-  update(oldMessage => `${oldMessage} World`)
+  state.count++
+  state.status = !state.status
 }
 </script>
 
@@ -23,9 +20,9 @@ const onClick = () => {
       :class="styles.btn"
       class="outline outline-1 rounded"
     >
-      Add "World"
+      Update
     </button>
-    <pre>{{ message }}</pre>
+    <pre>{{ state }}</pre>
   </div>
 </template>
 
